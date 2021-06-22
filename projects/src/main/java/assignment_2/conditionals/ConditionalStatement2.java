@@ -11,7 +11,7 @@ public class ConditionalStatement2 {
             System.out.println("You Lose");
         }
 
-        //doSomething()
+        doSomething(true); //uncommented
     }
 
 
@@ -28,7 +28,8 @@ public class ConditionalStatement2 {
             System.out.println("I think you would probably always win here");
         }
 
-        if(b && b ) {
+        if(b && !b ) //its  not ( b && b ) but (b && !b)
+        {
             System.out.println("You will never win here!");
         }
     }
