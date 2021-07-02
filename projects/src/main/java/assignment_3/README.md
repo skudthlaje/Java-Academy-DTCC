@@ -43,7 +43,7 @@ please feel free to contact us for any questions about the assignment
 
 Now that you've gotten through the warmup, let's take it up a notch!
 
-Under the `assigment_2` directory (within the same folder as the DogPound)
+Under the `assigment_3` directory (within the same folder as the people package)
 class.
 
 <b>Section Instructions</b>:
