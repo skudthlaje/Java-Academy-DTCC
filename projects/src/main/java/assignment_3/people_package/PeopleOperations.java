@@ -1,11 +1,10 @@
 package assignment_3.people_package;
 
-import jdk.jshell.spi.ExecutionControl;
 
 import java.util.ArrayList;
 
 public class PeopleOperations {
-    public static void main (String args []) throws ExecutionControl.NotImplementedException {
+    public static void main (String args []) throws Exception {
         /*
             Please ensure that you create an ArrayList of Person(s) with at least
             4 members
@@ -34,20 +33,20 @@ public class PeopleOperations {
         }
     }
 
-    public static Person getYoungestPerson(ArrayList<Person> list) throws ExecutionControl.NotImplementedException {
-        throw new ExecutionControl.NotImplementedException("Please implement this method");
+    public static Person getYoungestPerson(ArrayList<Person> list) throws Exception {
+        throw new Exception("Please implement this method");
     }
 
-    public static Person getOldestPerson(ArrayList<Person> list) throws ExecutionControl.NotImplementedException {
-        throw new ExecutionControl.NotImplementedException("Please implement this method");
+    public static Person getOldestPerson(ArrayList<Person> list) throws Exception {
+        throw new Exception("Please implement this method");
     }
 
-    public static ArrayList<Person> getSortedListByAge(ArrayList<Person> list) throws ExecutionControl.NotImplementedException {
-        throw new ExecutionControl.NotImplementedException("Please implement this method");
+    public static ArrayList<Person> getSortedListByAge(ArrayList<Person> list) throws Exception {
+        throw new Exception("Please implement this method");
     }
 
-    public static ArrayList<Person> getSortedListByName(ArrayList<Person> list, boolean isAscending) throws ExecutionControl.NotImplementedException {
-        throw new ExecutionControl.NotImplementedException("Please implement this method");
+    public static ArrayList<Person> getSortedListByName(ArrayList<Person> list, boolean isAscending) throws Exception {
+        throw new Exception("Please implement this method");
     }
 
 }
