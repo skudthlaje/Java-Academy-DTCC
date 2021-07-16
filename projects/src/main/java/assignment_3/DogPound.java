@@ -18,7 +18,7 @@ public class DogPound {
         myDog.setName("Fido");
 
         if(myDog.name != null ) {
-            System.out.println("Great the Dog's name is: " + myDog.name);
+            System.out.println("\n Great! The Dog's name is: " + myDog.name);
         }
 
         // If we print the variable "x" what do you think the value will be?
@@ -32,7 +32,7 @@ public class DogPound {
 
         String dogsSpeech = myDog.speak();
         if(dogsSpeech != null) {
-            System.out.println(String.format("The value of variable dogsSpeech is %s", dogsSpeech));
+            System.out.println(String.format("The value of variable dogsSpeech is : %s", dogsSpeech));
         }
 
     }
@@ -60,7 +60,12 @@ public class DogPound {
                 <data type> <variable name> = <expression>
              */
 
-            throw new Exception("Please implement this function");
+            //  throw new Exception("Please implement this function");
+
+		    // Shobha's code :
+
+            this.name = n; // End: Shobha's code.
+
         }
 
         public String speak() {
@@ -69,7 +74,11 @@ public class DogPound {
                 when you ask them to.
              */
 
-            return null;
-        }
+		 // Shobha's code :
+
+            String dog_bark = "Rrrr...rruff, ruff, ruff";
+
+            return dog_bark; //null;
+        }   // End : Shobha's code
     }
 }
